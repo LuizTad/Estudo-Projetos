@@ -31,7 +31,7 @@
 <?php
 session_start();
 
-$site2 = "<br><h1 class='centralizar'><a href='http://localhost/game/jogo.php'>Jogar!<h1></a>";
+$site2 = "<br><h1 class='centralizar'><a href='http://localhost/Jogo de dados/jogo.php'>Jogar!<h1></a>";
 
     if(isset($_POST["btn"])){
         if(!empty($_POST["playerName1"] && $_POST["playerName2"])){
