@@ -55,6 +55,6 @@
 
 <script type="text/javascript">
     document.getElementById("trocarNome").onclick = function () {
-        location.href = "http://localhost/game/inicio.php";
+        location.href = "http://localhost/Jogo de dados/inicio.php";
     };
 </script>
