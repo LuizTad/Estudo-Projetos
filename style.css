@@ -1,0 +1,81 @@
+body {
+      background: #26457c;
+      font-family: Arial, sans-serif;
+      color: #fff;
+      text-align: center;
+      padding-top: 80px;
+    }
+
+    h1 {
+      color: #ffd700;
+      text-shadow: 2px 2px 4px #000;
+      margin-bottom: 25px;
+    }
+
+    a {
+      text-decoration: none; /* remove o sublinhado padrão */
+      font-weight: bold;
+      color: #ffd700; /* amarelo inicial */
+    }
+    
+    a:visited {
+      color: #ffd700; /* força a manter o mesmo amarelo */
+    }
+    
+    a:hover {
+      color: #ffea70; /* amarelo mais claro ao passar o mouse */
+      text-shadow: 0px 0px 8px #000;
+    }
+    
+    a:active {
+      color: #ffc400; /* amarelo mais escuro quando clica */
+    }
+
+    input {
+      padding: 10px;
+      border-radius: 8px;
+      border: none;
+      margin: 8px 0;
+      width: 220px;
+      font-size: 1rem;
+      text-align: center;
+    }
+
+    button {
+      background: #ffd700;
+      color: #000;
+      border: none;
+      border-radius: 8px;
+      padding: 10px 25px;
+      font-size: 1rem;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: transform 0.2s ease, background 0.3s;
+    }
+
+    button:hover {
+      background: #ffea70;
+      transform: scale(1.05);
+    }
+
+    .mensagem {
+      margin-top: 25px;
+      font-size: 1.1rem;
+    }
+
+    .link-jogar {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 25px;
+      background: #ffd700;
+      color: #000;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: transform 0.2s ease, background 0.3s;
+    }
+
+    .link-jogar:hover {
+      background: #ffea70;
+      transform: scale(1.05);
+    }

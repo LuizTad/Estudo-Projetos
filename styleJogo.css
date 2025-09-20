@@ -1,0 +1,101 @@
+body {
+  background: #26457c;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  width: 400px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.6);
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  color: #ffd700;
+  text-shadow: 2px 2px 5px #000;
+}
+
+.resultado {
+  margin-top: 20px;
+}
+
+.resultado .linha {
+  margin: 12px 0;
+  font-size: 1.2rem;
+}
+
+.dado {
+  display: inline-block;
+  background: #fff;
+  color: #000;
+  font-weight: bold;
+  border-radius: 6px;
+  padding: 6px 12px;
+  margin-left: 6px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+.vencedor {
+  margin-top: 25px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(90deg, #28a745, #32cd32, #7CFC00);
+  padding: 15px 25px;
+  border-radius: 12px;
+  display: inline-block;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8);
+  /* Remover as animações */
+  /* animation: pulse 1.2s infinite, glow 2s infinite alternate; */
+}
+
+.empate {
+  margin-top: 20px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #000;
+  background: linear-gradient(90deg, #ffd700, #ffea70);
+  padding: 10px 18px;
+  border-radius: 10px;
+  display: inline-block;
+  text-shadow: 1px 1px 5px #000;
+}
+
+.btn {
+  background: #ffd700;
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 15px 5px 0;
+  transition: transform 0.2s ease, background 0.3s;
+}
+
+.btn:hover {
+  background: #ffea70;
+  transform: scale(1.05);
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+@keyframes glow {
+  from { box-shadow: 0 0 10px #32cd32, 0 0 20px #28a745; }
+  to   { box-shadow: 0 0 25px #7CFC00, 0 0 45px #32cd32; }
+}
